@@ -4,6 +4,7 @@
 /2018.10.05 support taq 3.0 nov2017, changes to some field types (see nf2,tf2, qf2)
 /2017.10.20 support taq3.0b
 / https://list.theice.com/t/92262/395348/57007/0/
+
 /2016.10.18 support taq2.2a
 / http://www.nyxdata.com/doc/247075
 
@@ -36,6 +37,7 @@ tf2:("NC*SIEBHI*CBNNB";enlist"|"); tg2:{x};
 / 2.2
 qh2:`Time`Exchange`Symbol`Bid_Price`Bid_Size`Offer_Price`Offer_Size`Quote_Condition`Sequence_Number`National_BBO_Ind`FINRA_BBO_Indicator`FINRA_ADF_MPID_Indicator`Quote_Cancel_Correction`Source_Of_Quote`Retail_Interest_Indicator`Short_Sale_Restriction_Indicator`LULD_BBO_Indicator`SIP_Generated_Message_Identifier`National_BBO_LULD_Indicator`Participant_Timestamp`FINRA_ADF_Timestamp`FINRA_ADF_Market_Participant_Quote_Indicator;
 qf2:("NC*EHFHCIHHCCCCCCCCNNC";enlist"|"); qg2:{x};
+
 / 3.0
 qh2:`Time`Exchange`Symbol`Bid_Price`Bid_Size`Offer_Price`Offer_Size`Quote_Condition`Sequence_Number`National_BBO_Ind`FINRA_BBO_Indicator`FINRA_ADF_MPID_Indicator`Quote_Cancel_Correction`Source_Of_Quote`Retail_Interest_Indicator`Short_Sale_Restriction_Indicator`LULD_BBO_Indicator`SIP_Generated_Message_Identifier`National_BBO_LULD_Indicator`Participant_Timestamp`FINRA_ADF_Timestamp`FINRA_ADF_Market_Participant_Quote_Indicator`Security_Status_Indicator
 qf2:("NC*FHFHCIHHCCCCCCCCNNCC";enlist"|"); qg2:{x};
